@@ -1,0 +1,13 @@
+resource_id,resource_name,source_type,path,classification,department
+RES001,Employee Handbook,DOCUMENT,data/enterprise/documents/hr/employee_data_policy.pdf,CONFIDENTIAL,D003
+RES002,Security Incident Response Policy,DOCUMENT,data/enterprise/documents/security/security_incident_response.pdf,CONFIDENTIAL,D004
+RES003,Cloud Architecture Guide,DOCUMENT,data/enterprise/documents/engineering/cloud_architecture.pdf,INTERNAL,D001
+RES004,Annual Financial Report,DOCUMENT,data/enterprise/documents/finance/financial_controls.pdf,CONFIDENTIAL,D002
+RES005,Compliance Policy,DOCUMENT,data/enterprise/documents/compliance/compliance_policy.pdf,CONFIDENTIAL,D006
+RES006,Employee Dataset,CSV,data/enterprise/structured/employees.csv,INTERNAL,ENTERPRISE
+RES007,Financial Records,CSV,data/enterprise/structured/financial_records.csv,CONFIDENTIAL,D002
+RES008,Project Status,CSV,data/enterprise/structured/project_status.csv,INTERNAL,D001
+RES009,Operational Metrics,CSV,data/enterprise/structured/operational_metrics.csv,INTERNAL,D005
+RES010,Authentication Events,JSON_LOG,data/enterprise/logs/authentication_events.json,CONFIDENTIAL,D004
+RES011,Security Events,JSON_LOG,data/enterprise/logs/security_events.json,CONFIDENTIAL,D004
+RES012,Application Events,JSON_LOG,data/enterprise/logs/application_events.json,INTERNAL,D005

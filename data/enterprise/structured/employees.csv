@@ -1,0 +1,9 @@
+employee_id,user_id,name,department,job_title,location,status
+E001,U001,Aarav Sharma,Engineering,Software Engineer,Bengaluru,ACTIVE
+E002,U006,Neha Mehta,Finance,Financial Analyst,Mumbai,ACTIVE
+E003,U010,Ishita Gupta,Human Resources,HR Analyst,Delhi,ACTIVE
+E004,U014,Kavya Reddy,Security,Security Analyst,Bengaluru,ACTIVE
+E005,U016,Pooja Kapoor,Security,Security Administrator,Bengaluru,ACTIVE
+E006,U021,Amit Patel,Compliance,Compliance Officer,Pune,ACTIVE
+E007,U024,Tanya Reddy,Executive,VP Operations,Mumbai,ACTIVE
+E008,U027,Dev Nair,Operations,System Administrator,Bengaluru,ACTIVE

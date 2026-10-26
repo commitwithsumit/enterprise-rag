@@ -1,0 +1,5 @@
+metric_id,service,date,availability_percent,error_rate_percent,requests_per_second,status
+OPS001,Payment API,2026-09-20,99.91,0.12,1820,HEALTHY
+OPS002,Authentication API,2026-09-20,99.72,0.31,2450,DEGRADED
+OPS003,Payment API,2026-09-21,99.84,0.21,1940,HEALTHY
+OPS004,Authentication API,2026-09-21,98.91,1.14,2510,DEGRADED

@@ -1,0 +1,32 @@
+[
+  {
+    "event_id": "SEC001",
+    "timestamp": "2026-09-21T09:20:11Z",
+    "severity": "HIGH",
+    "user_id": "U014",
+    "event_type": "MULTIPLE_LOGIN_FAILURES",
+    "source_ip": "10.10.20.55",
+    "description": "Multiple failed authentication attempts detected",
+    "classification": "CONFIDENTIAL"
+  },
+  {
+    "event_id": "SEC002",
+    "timestamp": "2026-09-21T11:41:32Z",
+    "severity": "MEDIUM",
+    "user_id": "U001",
+    "event_type": "UNAUTHORIZED_RESOURCE_ATTEMPT",
+    "resource_id": "RES006",
+    "description": "User attempted to access restricted security resource",
+    "classification": "CONFIDENTIAL"
+  },
+  {
+    "event_id": "SEC003",
+    "timestamp": "2026-09-21T14:15:09Z",
+    "severity": "CRITICAL",
+    "user_id": "U027",
+    "event_type": "PRIVILEGED_ACCESS_ANOMALY",
+    "resource_id": "RES009",
+    "description": "Privileged access pattern requires investigation",
+    "classification": "RESTRICTED"
+  }
+]

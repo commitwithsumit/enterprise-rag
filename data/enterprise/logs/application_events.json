@@ -1,0 +1,26 @@
+[
+  {
+    "event_id": "APP001",
+    "timestamp": "2026-09-21T10:11:04Z",
+    "service": "Payment API",
+    "event_type": "HIGH_LATENCY",
+    "latency_ms": 1840,
+    "status": "WARNING"
+  },
+  {
+    "event_id": "APP002",
+    "timestamp": "2026-09-21T10:12:41Z",
+    "service": "Payment API",
+    "event_type": "ERROR_RATE_SPIKE",
+    "error_rate": 4.8,
+    "status": "CRITICAL"
+  },
+  {
+    "event_id": "APP003",
+    "timestamp": "2026-09-21T10:17:19Z",
+    "service": "Authentication API",
+    "event_type": "LATENCY_SPIKE",
+    "latency_ms": 920,
+    "status": "WARNING"
+  }
+]

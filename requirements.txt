@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+langchain-text-splitters
+
+chromadb
+pypdf
+tiktoken

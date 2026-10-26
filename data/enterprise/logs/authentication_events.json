@@ -1,0 +1,38 @@
+[
+  {
+    "event_id": "AUTH001",
+    "timestamp": "2026-09-21T09:12:14Z",
+    "user_id": "U014",
+    "username": "kavya.reddy",
+    "event_type": "LOGIN_SUCCESS",
+    "source_ip": "10.10.20.14",
+    "service": "Authentication API"
+  },
+  {
+    "event_id": "AUTH002",
+    "timestamp": "2026-09-21T09:18:41Z",
+    "user_id": "U014",
+    "username": "kavya.reddy",
+    "event_type": "LOGIN_FAILURE",
+    "source_ip": "10.10.20.55",
+    "service": "Authentication API"
+  },
+  {
+    "event_id": "AUTH003",
+    "timestamp": "2026-09-21T09:19:03Z",
+    "user_id": "U014",
+    "username": "kavya.reddy",
+    "event_type": "LOGIN_SUCCESS",
+    "source_ip": "10.10.20.14",
+    "service": "Authentication API"
+  },
+  {
+    "event_id": "AUTH004",
+    "timestamp": "2026-09-21T10:03:22Z",
+    "user_id": "U001",
+    "username": "aarav.sharma",
+    "event_type": "LOGIN_SUCCESS",
+    "source_ip": "10.10.30.11",
+    "service": "Authentication API"
+  }
+]

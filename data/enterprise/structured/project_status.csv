@@ -1,0 +1,5 @@
+project_id,project_name,department,status,project_manager,budget,status_date
+PRJ001,Enterprise RAG Platform,Engineering,IN_PROGRESS,Aarav Sharma,4500000,2026-09-20
+PRJ002,Security Modernization,Security,IN_PROGRESS,Pooja Kapoor,3200000,2026-09-19
+PRJ003,Compliance Automation,Compliance,AT_RISK,Amit Patel,2100000,2026-09-18
+PRJ004,Finance Data Platform,Finance,COMPLETED,Neha Mehta,2800000,2026-09-17

@@ -1,0 +1,13 @@
+resource_id,resource_name,resource_type,classification,department_id
+RES001,Employee Handbook,PDF,CONFIDENTIAL,D003
+RES002,Security Incident Response Policy,PDF,CONFIDENTIAL,D004
+RES003,Cloud Architecture Guide,PDF,INTERNAL,D001
+RES004,Annual Financial Report,PDF,CONFIDENTIAL,D002
+RES005,Compliance Policy,PDF,CONFIDENTIAL,D006
+RES006,Employee Dataset,CSV,INTERNAL,ENTERPRISE
+RES007,Financial Records,CSV,CONFIDENTIAL,D002
+RES008,Project Status,CSV,INTERNAL,D001
+RES009,Operational Metrics,CSV,INTERNAL,D005
+RES010,Authentication Events,JSON_LOG,CONFIDENTIAL,D004
+RES011,Security Events,JSON_LOG,CONFIDENTIAL,D004
+RES012,Application Events,JSON_LOG,INTERNAL,D005

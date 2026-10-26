@@ -1,0 +1,16 @@
+permission_id,permission_code,resource_type,description
+P001,READ_PUBLIC,DOCUMENT,Read public information
+P002,READ_INTERNAL,DOCUMENT,Read internal enterprise information
+P003,READ_CONFIDENTIAL,DOCUMENT,Read confidential information
+P004,READ_RESTRICTED,DOCUMENT,Read restricted information
+P005,READ_HR,HR,Read HR records
+P006,READ_FINANCE,FINANCE,Read finance records
+P007,READ_SECURITY,SECURITY,Read security records and incidents
+P008,READ_COMPLIANCE,COMPLIANCE,Read compliance records
+P009,READ_AUDIT_LOGS,AUDIT,Read audit logs
+P010,READ_OPERATIONAL,OPERATIONS,Read operational datasets and logs
+P011,WRITE_DOCUMENT,DOCUMENT,Create or modify enterprise documents
+P012,MANAGE_USERS,IDENTITY,Manage users and roles
+P013,VIEW_RETRIEVAL_TRACE,RAG,View RAG retrieval and authorization trace
+P014,VIEW_SECURITY_EVENTS,SECURITY,View security events and alerts
+P015,EXPORT_DATA,DATA,Export authorized enterprise data

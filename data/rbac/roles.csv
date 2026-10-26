@@ -1,0 +1,10 @@
+role_id,role_name,description
+R001,EMPLOYEE,Standard enterprise employee
+R002,MANAGER,Department or team manager
+R003,HR_ANALYST,Human Resources analyst
+R004,FINANCE_ANALYST,Finance analyst
+R005,SECURITY_ANALYST,Security operations analyst
+R006,SECURITY_ADMIN,Security administrator with elevated security access
+R007,COMPLIANCE_OFFICER,Compliance and audit specialist
+R008,EXECUTIVE,Executive leadership role
+R009,SYSTEM_ADMIN,Platform/system administrator

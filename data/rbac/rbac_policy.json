@@ -1,0 +1,103 @@
+{
+  "enterprise": "TechNova Enterprise",
+  "classification_levels": {
+    "PUBLIC": 1,
+    "INTERNAL": 2,
+    "CONFIDENTIAL": 3,
+    "RESTRICTED": 4
+  },
+  "principles": [
+    "Deny by default",
+    "Authenticate before authorization",
+    "Authorize before retrieval",
+    "Unauthorized content must never enter the LLM context",
+    "Resource policies can further restrict role permissions",
+    "Every authorization decision must be auditable"
+  ],
+  "sensitive_fields": [
+    "salary",
+    "bank_account",
+    "personal_address",
+    "government_id",
+    "authentication_token",
+    "security_secret"
+  ],
+  "role_permissions": {
+    "EMPLOYEE": [
+      "READ_PUBLIC",
+      "READ_INTERNAL"
+    ],
+    "MANAGER": [
+      "READ_PUBLIC",
+      "READ_INTERNAL",
+      "READ_OPERATIONAL",
+      "VIEW_RETRIEVAL_TRACE"
+    ],
+    "HR_ANALYST": [
+      "READ_PUBLIC",
+      "READ_INTERNAL",
+      "READ_HR",
+      "READ_CONFIDENTIAL",
+      "VIEW_RETRIEVAL_TRACE",
+      "EXPORT_DATA"
+    ],
+    "FINANCE_ANALYST": [
+      "READ_PUBLIC",
+      "READ_INTERNAL",
+      "READ_FINANCE",
+      "READ_CONFIDENTIAL",
+      "VIEW_RETRIEVAL_TRACE",
+      "EXPORT_DATA"
+    ],
+    "SECURITY_ANALYST": [
+      "READ_PUBLIC",
+      "READ_INTERNAL",
+      "READ_SECURITY",
+      "READ_OPERATIONAL",
+      "VIEW_SECURITY_EVENTS",
+      "VIEW_RETRIEVAL_TRACE"
+    ],
+    "SECURITY_ADMIN": [
+      "READ_PUBLIC",
+      "READ_INTERNAL",
+      "READ_CONFIDENTIAL",
+      "READ_RESTRICTED",
+      "READ_SECURITY",
+      "READ_OPERATIONAL",
+      "READ_AUDIT_LOGS",
+      "VIEW_SECURITY_EVENTS",
+      "VIEW_RETRIEVAL_TRACE",
+      "EXPORT_DATA"
+    ],
+    "COMPLIANCE_OFFICER": [
+      "READ_PUBLIC",
+      "READ_INTERNAL",
+      "READ_CONFIDENTIAL",
+      "READ_COMPLIANCE",
+      "READ_AUDIT_LOGS",
+      "VIEW_RETRIEVAL_TRACE",
+      "EXPORT_DATA"
+    ],
+    "EXECUTIVE": [
+      "READ_PUBLIC",
+      "READ_INTERNAL",
+      "READ_CONFIDENTIAL",
+      "READ_FINANCE",
+      "READ_OPERATIONAL",
+      "READ_COMPLIANCE",
+      "VIEW_RETRIEVAL_TRACE",
+      "EXPORT_DATA"
+    ],
+    "SYSTEM_ADMIN": [
+      "READ_PUBLIC",
+      "READ_INTERNAL",
+      "READ_CONFIDENTIAL",
+      "READ_RESTRICTED",
+      "READ_AUDIT_LOGS",
+      "MANAGE_USERS",
+      "WRITE_DOCUMENT",
+      "VIEW_RETRIEVAL_TRACE",
+      "EXPORT_DATA"
+    ]
+  }
+}
